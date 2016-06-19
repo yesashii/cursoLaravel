@@ -1,0 +1,17 @@
+{
+    "name": "lherrera/php-laravel",
+    "description": "proyecto php en platzi con laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luis Herrera",
+            "email": "lherrera@gignosoft.cl"
+        }
+    ],
+    "require": {},
+	"autoload":{
+		"psr-4": {
+			"PlatziPHP\\": "src/"		
+		}	
+	}	
+}
