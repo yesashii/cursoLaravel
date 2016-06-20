@@ -16,7 +16,7 @@ class User // acá dentro va el estado interno del objeto y su comportamiento.
 
   public function __construct($email, $password)
   {
-    $this->email = $email;
+    $this->email    = $email;
     $this->password = password_hash($password, PASSWORD_DEFAULT);
   }
 
@@ -24,5 +24,10 @@ class User // acá dentro va el estado interno del objeto y su comportamiento.
   {
     $this->fistName = $fistName;
     $this->lastName = $lastName;
+  }
+
+  public function  getFistName()
+  {
+    return $this->fistName;
   }
 }
