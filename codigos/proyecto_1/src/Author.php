@@ -10,6 +10,6 @@ class Author extends User
 {
     public function getLastName()
     {
-        return
+       // return
     }
 }
